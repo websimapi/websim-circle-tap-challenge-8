@@ -163,6 +163,10 @@ button {
     min-width: 0;
 }
 
+.menu-btn {
+    font-size: clamp(0.7rem, 2.8vw, 0.9rem);
+}
+
 button:disabled {
     background-color: #555;
     cursor: not-allowed;
