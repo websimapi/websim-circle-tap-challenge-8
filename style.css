@@ -123,11 +123,12 @@ html, body {
 
 #game-over-buttons {
     display: flex;
+    flex-direction: column;
     gap: 8px;
-    margin-top: 3px;
-    /* flex-wrap: wrap; */ /* Removed */
+    margin-top: 8px;
     justify-content: center;
     width: 100%;
+    align-items: stretch;
 }
 
 #leaderboard-btn {
