@@ -130,6 +130,19 @@ html, body {
     width: 100%;
 }
 
+#leaderboard-btn {
+    flex-grow: 0.5; /* Grow less than other buttons */
+    padding-left: 12px;
+    padding-right: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#leaderboard-btn svg {
+    height: 1.2em; /* Size relative to button font-size */
+}
+
 #difficulty-selection {
     display: flex;
     gap: 8px;
